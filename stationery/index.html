@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <title>Stationery</title>
+    <meta charset="UTF-8">
+    <meta name="description" content="見てワクワクする、心が躍る文房具店Stationery。手に持つだけで今日も頑張ろうと思える。">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+  </head>
+
+  <body>
+    <!-- ヘッダー -->
+    <header>
+      <!-- ロゴ -->
+      <a href="index.html" id="logo"><img src="image/logo.png" alt="トップページに戻る"></a>
+
+      <!-- PC用ナビゲーション -->
+      <nav id="nav-pc">
+        <a href="#mission">Stationeryについて</a>
+        <a href="#product">商品一覧</a>
+        <a href="#news">ニュース</a>
+        <a href="#contact">お問い合わせ</a>
+      </nav>
+      <!-- スマホ用ナビゲーション -->
+      <img id="menu-sp" src="image/button-menu.png" alt="ナビゲーションを開く" onclick="document.getElementById('nav-sp').style.display = 'block'">
+
+      <!-- スマホ用ナビゲーション -->
+     <nav id="nav-sp">
+      <img id="close" src="image/button-close.png" alt="ナビゲーションを閉じる" onclick="document.getElementById('nav-sp').style.display = 'none'">
+      <a id="logo-sp" href="index.html" onclick="document.getElementById('nav-sp').style.display = 'none'"><img src="image/logo.png" alt="トップページに戻る"></a>
+      <a class="menu" href="mission.html" onclick="document.getElementById('nav-sp').style.display = 'none'">Stationeryについて</a>
+      <a class="menu" href="product.html" onclick="document.getElementById('nav-sp').style.display = 'none'">商品一覧</a>
+      <a class="menu" href="#news" onclick="document.getElementById('nav-sp').style.display = 'none'">ニュース</a>
+      <a class="menu" href="#contact"onclick="document.getElementById('nav-sp').style.display = 'none'">お問い合わせ</a>
+      </div>
+    </nav>
+    </header>
+
+    <main>
+      <article>
+        <!-- メインビジュアル -->
+        <section id="main-visual">
+          <div id="main-message">
+           <h1>Stationery</h1>
+           <p>Have a nice day</p>
+          </div>
+          <img src="image/main.jpg" alt="たくさんの文房具">
+        </section>
+
+        <!-- Stationeryについて -->
+        <section id="mission">
+          <h2 class="index-h2">Stationeryについて</h2>
+          <div id="mission-flex">
+            <div>
+              <img id="mission-photo" src="image/mission.jpg" alt="女の子が本を読んでいる">
+              <h3>「見てワクワクする、心が躍る文房具」をテーマに、たくさんの文房具を揃えております。<br>カスタムできる商品をはじめ、期間限定商品からあなただけのステーショナリーセットを作ってみよう！<br>大切な人へのギフトにもおすすめです。<br>手にとることで「今日も頑張ろう」と思える、そんな人生を豊かにするきっかけとなれば幸いです。</h3>
+            </div>
+          </div>
+        </section>
+
+        <!-- プロダクト -->
+        <section id="product">
+          <h2 class="index-h2">商品一覧</h2>
+          <div>
+            <div id="product-left">
+              <div>
+                <img class="product-photo" src="image/product-1.jpg" alt="ノートの画像">
+                <div class="product-explain">
+                  <span>NOTE</span>
+                  <h3>ノート</h3>
+                  <p>ルーズリーフからノートタイプと様々な種類を揃えております。<br>カスタム可能なため、オリジナルノートが作れます！</p>
+                </div>
+              </div>
+              <div>
+                <img class="product-photo" src="image/product-2.jpg" alt="カレンダー">
+                <div class="product-explain">
+                  <span>calender</span>
+                  <h3>カレンダー</h3>
+                  <p>卓上タイプや壁掛けタイプ、シールタイプなど種類豊富に揃えております。</p>
+                </div>
+              </div>
+            </div>
+            <div id="product-right">
+              <div>
+                <img class="product-photo" src="image/product-3.jpg" alt="クリップ">
+                <div class="product-explain">
+                  <span>clip</span>
+                  <h3>クリップ</h3>
+                  <p>可愛く実用的なクリップで、書類をまとめられます。</p>
+                </div>
+              </div>
+              <div>
+                <img class="product-photo" src="image/product-4.jpg" alt="ポストカード">
+                <div class="product-explain">
+                  <span>card</span>
+                  <h3>ポストカード</h3>
+                  <p>お誕生日のポストカードや、インテリアとしてのポストカードとたくさんご用意しております。</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!--ニュース -->
+        <section id="news">
+          <h2 class="index-h2">ニュース</h2>
+          <h3>スタッフのオススメ</h3>
+          <div>
+            <table class="recommendation">
+              <tr>
+                <td>
+                  <span class="recommendation-num">01</span>
+                </td>
+                <td>
+                  <spam class="recommendation-en">Bullet journal</spam>
+                  <span class="recommendation-jp">バレットジャーナル</span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <!-- 空のセル -->
+                </td>
+                <td>
+                  <p class="description">
+                    今流行りのバレットジャーナル！
+                    「Stationery」にスターターキットが登場！
+                    ぜひ手にお取りいただき、自分だけのバレットジャーナルを作ってみよう！
+                  </p>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <span class="recommendation-num">02</span>
+                </td>
+                <td>
+                  <spam class="recommendation-en">Christmas card</spam>
+                  <span class="recommendation-jp">クリスマスカード</span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <!-- 空のセル -->
+                </td>
+                <td>
+                  <p class="description">
+                    もうすぐクリスマス。ギフトカードとしてお手紙を書いてみませんか？
+                    手帳やバレットジャーナルに挟んで保管するのもオシャレ！
+                  </p>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <span class="recommendation-num">03</span>
+                </td>
+                <td>
+                  <spam class="recommendation-en">Book cover</spam>
+                  <span class="recommendation-jp">ブックカバー</span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <!-- 空のセル -->
+                </td>
+                <td>
+                  <p class="description">
+                    オシャレなブックカバーが登場！
+                    本やノートを装飾して気分をあげよう！
+                  </p>
+                </td>
+              </tr>
+            </table>
+            <img class="recommendation-img" src="image/recommendation-1.jpg" alt="バレットジャーナル">
+          </div>
+          <img class="recommendation-img2" src="image/recommendation-2.jpg" alt="クリスマスカード">
+        </section>
+
+        <!-- お問い合わせフォーム -->
+        <section id="contact">
+          <h2 class="index-h2">お問い合わせ</h2>
+          <form action="https://api.staticforms.xyz/submit" method="post">
+            <input type="text" name="honeypot" style="display:none">
+            <!-- STATIC FORMSのアクセスキー -->
+            <input type="hidden" name="accessKey" value="b55ac096-a9b0-4a6d-be5b-17fe16ee9d6b">
+            <!--メールのタイトル-->
+            <input type="hidden" name="subject" value="お問い合わせフォーム" />
+            <!--送信先のメールアドレスをvalueに設定する-->
+            <input type="hidden" name="replyTo" value="sitask957@gmail.com">
+            <!--redirectToのURLは公開後のURLへリンクする-->
+            <input type="hidden" name="redirectTo" value="">
+            <div>
+              <div class="contact-heading">
+                <label class="contact-label">お名前<span class="contact-span">必須</span></label>
+              </div>
+              <div>
+                <input type="text" name="name" placeholder="入力してください" class="contact-textbox">
+              </div>
+            </div>
+            <div>
+              <div class="contact-heading">
+                <label class="contact-label">フリガナ<span class="contact-span">必須</span></label>
+              </div>
+              <div>
+                <input type="text" name="hurigana" placeholder="入力してください" class="contact-textbox">
+              </div>
+            </div>
+            <div>
+              <div class="contact-heading">
+                <label class="contact-label">メールアドレス<span class="contact-span">必須</span></label>
+              </div>
+              <div>
+                <input type="text" name="email" placeholder="入力してください" class="contact-textbox">
+              </div>
+            </div>
+            <div>
+              <div class="contact-heading">
+                <label class="contact-label">電話番号<span class="contact-span">必須</span></label>
+              </div>
+              <div>
+                <input type="text" name="tel" placeholder="入力してください" class="contact-textbox">
+              </div>
+            </div>
+            <div>
+              <div class="contact-heading">
+                <label class="contact-label">お問い合わせ内容<span class="contact-span">必須</span></label>
+              </div>
+              <div>
+                <textarea class="contact-textarea" placeholder="入力してください" name="message"></textarea>
+              </div>
+            </div>
+            <div class="contact-heading">
+              <label class="contact-label">ご希望の連絡先<span class="contact-span">必須</span></label>
+            </div>
+            <div>
+              <input class="radiobutton" type="radio" value="tel" name="contact" checked><label>お電話</label>
+              <input class="radiobutton" type="radio" value="mail" name="contact"><label>メール</label>
+              <input class="radiobutton" type="radio" value="both" name="contact"><label>どちらでも</label>
+            </div>
+            <input type="image" src="image/button-submit.png" alt="送信する">
+          </form>
+        </section>
+      </article>
+      <footer>
+        <div id="footer-logo">
+          <img src="image/logo.png" alt="Stationery">
+        </div>
+        <div id="footer-link">
+          <a href="#mission">Stationeryについて</a>
+         <a href="#product">商品一覧</a>
+         <a href="#news">ニュース</a>
+         <a href="#contact">お問い合わせ</a>
+       </div>
+       <div id="sns-footer">
+         <img src="image/button-facebook.png" alt="facebook">
+         <img src="image/button-twitter.png" alt="twitter">
+         <span id="copyright">&copy;Stationery, All Rights Reserved.</span>
+       </div>
+      </footer>
+    </main>
+  </body>
+</html>
