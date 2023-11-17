@@ -1,0 +1,131 @@
+body {
+  padding: 0px;
+  margin: 0px;
+}
+
+/* ナビゲーションメニュー */
+nav {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 20px auto 20px auto;
+  max-width: 960px;
+}
+
+nav a {
+  font-weight: bold;
+  text-decoration: none;
+  font-size: 34px;
+  color: black;
+  font-family: "Note Sans JP", sans-serif;
+}
+
+/* ナビゲーションメニューのMyProfileの部分 */
+.home {
+  border: 1px solid black;
+  padding: 0px 20px;
+  margin-right: 20px;
+}
+
+/* メニューの余白 */
+.menu > a {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+/* 名前 */
+.name {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+h1 {
+  padding-top: 60px;
+  padding-bottom: 40px;
+  text-align: center;
+  font-size: 34px;
+  font-family: "Note Sans JP", sans-serif;
+}
+
+p {
+  font-size: 18px;
+  font-family: "Note Sans JP", sans-serif;
+}
+
+li {
+  font-size: 18px;
+  font-family: "Note Sans JP", sans-serif;
+}
+
+/* 文字の余白を消す */
+div {
+  font-size: 0;
+}
+
+/* メイン画像 */
+.mainpic {
+  width: 100%;
+}
+
+img {
+  margin: 0 auto;
+  max-width: 100%;
+}
+
+/* About */
+.about {
+  padding: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  margin: 20px auto 20px auto;
+  max-width: 960px;
+}
+
+.circle {
+  border-radius: 150px;
+  width: 230px;
+  height: 230x;
+  object-fit: cover;
+  border: 3px solid #999;
+  padding: 5px;
+}
+
+.content {
+  margin: 0px auto;
+  padding-left: 40px;
+}
+
+/* Works */
+.works { 
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 20px auto 20px auto;
+  max-width: 960px;
+}
+
+.item {
+  padding-bottom: 60px;
+  width: 25%;
+}
+
+.item-center {
+  padding-right: 25px;
+  padding-left: 25px;
+}
+
+/* フッター */
+footer p {
+  text-align: center;
+  padding-bottom: 20px;
+  font-family: "Note Sans JP", sans-serif;
+}
+
+@media (max-width: 767px) {
+  .item {
+    width: 100%;
+    text-align: center;
+    padding-bottom: 40px;
+  }
+}
